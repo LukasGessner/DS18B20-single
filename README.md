@@ -97,7 +97,7 @@ https://github.com/LukasINA/DS18B20-single
 as the URL.
 
 
-###MBED CLI
+### MBED CLI
 1. Open the command prompt in the project folder.
 2. Type
 ```
