@@ -58,7 +58,7 @@ int main()
 
 2. Printing floats in mbed-os 6 is disabled by default to save space. If you have a mbed_app.json file in your project root directory, add
 ```
-	"target_overrides": {
+"target_overrides": {
         "*": {
             "target.printf_lib": "std"
         }
@@ -67,7 +67,7 @@ int main()
 to this file. Otherwise, create mbed_app.json in the projects root directory and paste the following code into it:
 ```
 {
-	"target_overrides": {
+"target_overrides": {
         "*": {
             "target.printf_lib": "std"
         }
