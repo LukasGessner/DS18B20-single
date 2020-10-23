@@ -26,7 +26,6 @@
 
 #include "mbed.h"
 
-#ifdef USE_DS18B20
 
 #define OWI_SKIP_ROM 0xCC
 #define DS18B20_START 0x44
@@ -46,9 +45,7 @@ class OWI
 		unsigned char readBit();
 		DigitalInOut owi_io;
 };
-#endif
 
-#ifdef USE_DS18B20
 class DS18B20
 {
 	public: 
