@@ -38,7 +38,7 @@ int main()
 }
 ```
 
-### Nucleo L432KC with sensor on pin A0 (mbed-os 6)sensor
+### Nucleo L432KC with sensor on pin A0 (mbed-os 6)
 1. main.cpp
 ```
 #include "mbed.h"
@@ -56,7 +56,7 @@ int main()
 }
 ```
 
-2. Printing floats in mbed-os 6 is disabled by default to save space. If you have a mbed_app.json file in your porject root directory, add
+2. Printing floats in mbed-os 6 is disabled by default to save space. If you have a mbed_app.json file in your project root directory, add
 ```
 	"target_overrides": {
         "*": {
