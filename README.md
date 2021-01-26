@@ -82,7 +82,7 @@ to this file. Otherwise, create mbed_app.json in the projects root directory and
 2. select Import "Library" > "From URL".
 3. Type
 ```
-https://github.com/LukasINA/DS18B20-single
+https://github.com/LukasGessner/DS18B20-single
 ```
 as URL.
 
@@ -92,7 +92,7 @@ as URL.
 3. Click the "+" icon.
 4. Enter
 ```
-https://github.com/LukasINA/DS18B20-single
+https://github.com/LukasGessner/DS18B20-single
 ```
 as the URL.
 
@@ -101,7 +101,7 @@ as the URL.
 1. Open the command prompt in the project folder.
 2. Type
 ```
-mbed add https://github.com/LukasINA/DS18B20-single
+mbed add https://github.com/LukasGessner/DS18B20-single
 ```
 into the command prompt.
 
